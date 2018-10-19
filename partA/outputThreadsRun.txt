@@ -1,0 +1,123 @@
+		Matrix1
+ 3.450000, -5.120000, 2.056000, -19.100000
+ 1.230000, 0.900000, 6.200000, 10.000000
+ 9.570000, 9.010000, -2.056000, 2.390000
+		Matrix2
+ 5.430000, -12.500000, 65.020000, -1.100000, 6.200000
+ 3.210000, -9.020000, 4.560000, -11.220000, 4.010000
+ 5.820000, 1.080000, -2.056000, -23.450000, -13.720000
+ 83.470000, 56.100000, 4.283200, 42.200000, -2.340000
+
+There are 7 Threads Allocated!
+
+Processing in parallel.......
+Thread: 1 Number of Jobs = 2
+Thread: 2 Number of Jobs = 2
+Thread: 3 Number of Jobs = 2
+Thread: 4 Number of Jobs = 3
+Thread: 5 Number of Jobs = 2
+Thread: 6 Number of Jobs = 2
+Thread: 7 Number of Jobs = 2
+
+I am thread 1 Processing result array[0][0]
+I am thread 5 Processing result array[1][4]
+ Thread 5 Processing ... Matrix1[1][0] * matrix2[0][4] = 7.626000 
+ Thread 5 Processing ... Matrix1[1][1] * matrix2[1][4] = 3.609000 
+ Thread 5 Processing ... Matrix1[1][2] * matrix2[2][4] = -85.064000 
+ Thread 5 Processing ... Matrix1[1][3] * matrix2[3][4] = -23.400000 
+I am thread 4 Processing result array[1][1]
+I am thread 3 Processing result array[0][4]
+ Thread 3 Processing ... Matrix1[0][0] * matrix2[0][4] = 21.390000 
+ Thread 3 Processing ... Matrix1[0][1] * matrix2[1][4] = -20.531200 
+I am thread 2 Processing result array[0][2]
+ Thread 3 Processing ... Matrix1[0][2] * matrix2[2][4] = -28.208320 
+ Thread 4 Processing ... Matrix1[1][0] * matrix2[0][1] = -15.375000 
+ Thread 4 Processing ... Matrix1[1][1] * matrix2[1][1] = -8.118000 
+I am thread 5 Processing result array[2][0]
+ Thread 5 Processing ... Matrix1[2][0] * matrix2[0][0] = 51.965100 
+I am thread 7 Processing result array[2][3]
+ Thread 7 Processing ... Matrix1[2][0] * matrix2[0][3] = -10.527000 
+ Thread 1 Processing ... Matrix1[0][0] * matrix2[0][0] = 18.733500 
+ Thread 1 Processing ... Matrix1[0][1] * matrix2[1][0] = -16.435200 
+I am thread 6 Processing result array[2][1]
+ Thread 6 Processing ... Matrix1[2][0] * matrix2[0][1] = -119.625000 
+ Thread 6 Processing ... Matrix1[2][1] * matrix2[1][1] = -81.270200 
+ Thread 1 Processing ... Matrix1[0][2] * matrix2[2][0] = 11.965920 
+ Thread 7 Processing ... Matrix1[2][1] * matrix2[1][3] = -101.092200 
+ Thread 7 Processing ... Matrix1[2][2] * matrix2[2][3] = 48.213200 
+ Thread 7 Processing ... Matrix1[2][3] * matrix2[3][3] = 100.858000 
+ Thread 5 Processing ... Matrix1[2][1] * matrix2[1][0] = 28.922100 
+ Thread 5 Processing ... Matrix1[2][2] * matrix2[2][0] = -11.965920 
+ Thread 5 Processing ... Matrix1[2][3] * matrix2[3][0] = 199.493300 
+ Thread 4 Processing ... Matrix1[1][2] * matrix2[2][1] = 6.696000 
+ Thread 4 Processing ... Matrix1[1][3] * matrix2[3][1] = 561.000000 
+I am thread 4 Processing result array[1][2]
+ Thread 4 Processing ... Matrix1[1][0] * matrix2[0][2] = 79.974600 
+ Thread 4 Processing ... Matrix1[1][1] * matrix2[1][2] = 4.104000 
+ Thread 3 Processing ... Matrix1[0][3] * matrix2[3][4] = 44.694000 
+ Thread 2 Processing ... Matrix1[0][0] * matrix2[0][2] = 224.319000 
+I am thread 3 Processing result array[1][0]
+ Thread 4 Processing ... Matrix1[1][2] * matrix2[2][2] = -12.747200 
+ Thread 4 Processing ... Matrix1[1][3] * matrix2[3][2] = 42.832000 
+I am thread 4 Processing result array[1][3]
+ Thread 4 Processing ... Matrix1[1][0] * matrix2[0][3] = -1.353000 
+
+		Thread# 5 is done!!!
+
+I am thread 7 Processing result array[2][4]
+ Thread 7 Processing ... Matrix1[2][0] * matrix2[0][4] = 59.334000 
+ Thread 7 Processing ... Matrix1[2][1] * matrix2[1][4] = 36.130100 
+ Thread 7 Processing ... Matrix1[2][2] * matrix2[2][4] = 28.208320 
+ Thread 1 Processing ... Matrix1[0][3] * matrix2[3][0] = -1594.277000 
+ Thread 6 Processing ... Matrix1[2][2] * matrix2[2][1] = -2.220480 
+I am thread 1 Processing result array[0][1]
+ Thread 1 Processing ... Matrix1[0][0] * matrix2[0][1] = -43.125000 
+ Thread 7 Processing ... Matrix1[2][3] * matrix2[3][4] = -5.592600 
+ Thread 4 Processing ... Matrix1[1][1] * matrix2[1][3] = -10.098000 
+ Thread 4 Processing ... Matrix1[1][2] * matrix2[2][3] = -145.390000 
+ Thread 4 Processing ... Matrix1[1][3] * matrix2[3][3] = 422.000000 
+
+		Thread# 4 is done!!!
+
+ Thread 3 Processing ... Matrix1[1][0] * matrix2[0][0] = 6.678900 
+ Thread 2 Processing ... Matrix1[0][1] * matrix2[1][2] = -23.347200 
+ Thread 2 Processing ... Matrix1[0][2] * matrix2[2][2] = -4.227136 
+ Thread 2 Processing ... Matrix1[0][3] * matrix2[3][2] = -81.809120 
+ Thread 3 Processing ... Matrix1[1][1] * matrix2[1][0] = 2.889000 
+ Thread 3 Processing ... Matrix1[1][2] * matrix2[2][0] = 36.084000 
+
+		Thread# 7 is done!!!
+
+ Thread 1 Processing ... Matrix1[0][1] * matrix2[1][1] = 46.182400 
+ Thread 6 Processing ... Matrix1[2][3] * matrix2[3][1] = 134.079000 
+ Thread 1 Processing ... Matrix1[0][2] * matrix2[2][1] = 2.220480 
+ Thread 3 Processing ... Matrix1[1][3] * matrix2[3][0] = 834.700000 
+I am thread 2 Processing result array[0][3]
+
+		Thread# 3 is done!!!
+
+ Thread 1 Processing ... Matrix1[0][3] * matrix2[3][1] = -1071.510000 
+I am thread 6 Processing result array[2][2]
+
+		Thread# 1 is done!!!
+
+ Thread 2 Processing ... Matrix1[0][0] * matrix2[0][3] = -3.795000 
+ Thread 6 Processing ... Matrix1[2][0] * matrix2[0][2] = 622.241400 
+ Thread 2 Processing ... Matrix1[0][1] * matrix2[1][3] = 57.446400 
+ Thread 6 Processing ... Matrix1[2][1] * matrix2[1][2] = 41.085600 
+ Thread 2 Processing ... Matrix1[0][2] * matrix2[2][3] = -48.213200 
+ Thread 6 Processing ... Matrix1[2][2] * matrix2[2][2] = 4.227136 
+ Thread 2 Processing ... Matrix1[0][3] * matrix2[3][3] = -806.020000 
+ Thread 6 Processing ... Matrix1[2][3] * matrix2[3][2] = 10.236848 
+
+		Thread# 2 is done!!!
+
+
+		Thread# 6 is done!!!
+
+Everyone meets here after being done!!!
+
+	Result of multiplying Matrix 1 * Matrix 2
+ -1580.012780, -1066.232120, 114.935544, -800.581800, 17.344480
+ 880.351900, 544.203000, 114.163400, 265.159000, -97.229000
+ 268.414580, -69.036680, 677.790984, 37.452000, 118.079820
